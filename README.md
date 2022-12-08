@@ -77,5 +77,7 @@ GDP=Difference in GDP growth rates;
 
 IGR=Difference in income growth rates
 
-Reference: Gianni Amisano and John Geweke. Prediction using several macroeconomic models. Working Paper Series 1537,
-European Central Bank, April 2013.
+Reference: 
+Hendry, D.F. (1 983). Econometric modelling: the “consumption hnction” in retrospect. Scottish Journal of Political Economy 30, 193-220. 
+MacDonald, R. and M.P. Taylor (1991). Exchange Rates, Policy Convergence, and the European Monetary System, Review of Economics and Statistics, 73, 553-558 
+
