@@ -59,10 +59,13 @@ Example:
 USD/EUR(1 - Year)=z+a(INT)+b(GDP)+c(IGR)
 
 where:
-z=Constant baseline exchange rate
-a,b and c=Coefficients representing relative
-weight of each factor
-INT=Difference in interest rates between
-U.S. and Canada
-GDP=Difference in GDP growth rates
+
+z=Constant baseline exchange rate;
+
+a,b and c=Coefficients representing relative weight of each factor;
+
+INT=Difference in interest rates between U.S. and Europe;
+
+GDP=Difference in GDP growth rates;
+
 IGR=Difference in income growth rates
