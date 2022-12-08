@@ -2,7 +2,7 @@
 
 ## Absrtact
 
-Due to the interesting financial moment we are living, my motivation to write the this thesis has mostly been the behavior of foreign exchange rates o and models that can be used to predict them. Thus, in htis assignment I have presented 2 models: the autoregressive integrated moving average (ARIMA) and tensorflow.keras models so they can be used to 
+Due to the interesting financial moment we are living, my motivation to write the this work has mostly been the behavior of foreign exchange rates and models that can be used to predict them. Thus, in htis assignment I have presented 2 models: the Autoregressive Integrated Moving Average (ARIMA) and tensorflow.keras models so they can be used to 
 
 ## Introduction
 
@@ -25,4 +25,17 @@ Part 1: Explanatory Data Analysis (EDA) & Data Visualisation of the raw dataset.
 Part 2: Machine Learning: Time Series Forecasting with ARIMA.
 
 Part 3: Machine Learning: Tensorflow.keras.
+
+
+## Autoregressive Integrated Moving Average (ARIMA) Model
+
+A specific procedure, autoregressive integrated moving average (ARIMA) under time series forecasting, was introduced by Box and Jenkins.
+
+Stationary is the basic assumption to be fulfilled for the time series forecasting, while other specified conditions are the mean should be independent over time  and the variance among consecutive observations should be constant .
+
+![image](https://user-images.githubusercontent.com/112239284/206434851-ec1a471f-b25f-46ac-802c-9e2fc5ae0d70.png)
+
+Here, the AR (p) model is represented by equation (1) with p parameters, and MA (q) model is represented by equation (2) with q parameters. Hence, the combination of both models ARMA (p, q) can be illustrated as (1) with p and q parameters.
+This equation is applied when the original series is not stationary at its level. A transformation is needed, such as differencing. Further, if the series is ensured stationary at the first difference, then it provides that the original series is comprised of unit root and defined as I (1). Generally, if it is stationary at more than 1 difference, it is represented by d parameters. In such a case, equation (4) specifies the ARIMA (p, d, q) model with , d, and q parameters
+
 
