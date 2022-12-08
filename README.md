@@ -38,4 +38,6 @@ Stationary is the basic assumption to be fulfilled for the time series forecasti
 Here, the AR (p) model is represented by equation (1) with p parameters, and MA (q) model is represented by equation (2) with q parameters. Hence, the combination of both models ARMA (p, q) can be illustrated as (1) with p and q parameters.
 This equation is applied when the original series is not stationary at its level. A transformation is needed, such as differencing. Further, if the series is ensured stationary at the first difference, then it provides that the original series is comprised of unit root and defined as I (1). Generally, if it is stationary at more than 1 difference, it is represented by d parameters. In such a case, equation (4) specifies the ARIMA (p, d, q) model with , d, and q parameters
 
+![image](https://user-images.githubusercontent.com/112239284/206435068-12cde27a-fc44-4e45-aec6-9c062576ce28.png)
+
 
