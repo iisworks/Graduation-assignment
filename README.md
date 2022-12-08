@@ -54,7 +54,7 @@ One of the most well-known applications of the PPP method is illustrated by the 
 
 Another common method used to predict exchange rates involves gathering factors that might affect currency movements and creating a model that relates these variables to the exchange rate. The factors used in econometric models are typically based on economic theory, but any variable can be added if it is believed to significantly influence the exchange rate.
 
-For example:
+Example:
 
 USD/EUR(1 - Year)=z+a(INT)+b(GDP)+c(IGR)
 
