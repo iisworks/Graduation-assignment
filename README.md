@@ -26,7 +26,7 @@ Part 2: Machine Learning: Time Series Forecasting with ARIMA.
 
 Part 3: Machine Learning: Tensorflow.keras.
 
-Part 4: Future recomendations
+Part 4: Future recomendations: Econometric Models and Purchasing Power Parity (PPP)
 
 
 ## Autoregressive Integrated Moving Average (ARIMA) Model
@@ -48,3 +48,21 @@ This equation is applied when the original series is not stationary at its level
 The PPP forecasting approach is based on the theoretical law of one price, which states that identical goods in different countries should have identical prices.The PPP approach forecasts that the exchange rate will change to offset price changes due to inflation based on this underlying principle.
 
 One of the most well-known applications of the PPP method is illustrated by the Big Mac Index, compiled and published by The Economist. This lighthearted index attempts to measure whether a currency is undervalued or overvalued based on the price of Big Macs in various countries. Since Big Macs are nearly universal in all the countries they are sold, a comparison of their prices serves as the basis for the index. (https://www.economist.com/big-mac-index)
+
+
+## Econometric Models of Forecasting Exchange Rates
+
+Another common method used to predict exchange rates involves gathering factors that might affect currency movements and creating a model that relates these variables to the exchange rate. The factors used in econometric models are typically based on economic theory, but any variable can be added if it is believed to significantly influence the exchange rate.
+
+For example:
+
+USD/EUR(1 - Year)=z+a(INT)+b(GDP)+c(IGR)
+
+where:
+z=Constant baseline exchange rate
+a,b and c=Coefficients representing relative
+weight of each factor
+INT=Difference in interest rates between
+U.S. and Canada
+GDP=Difference in GDP growth rates
+IGR=Difference in income growth rates
