@@ -76,3 +76,6 @@ INT=Difference in interest rates between U.S. and Europe;
 GDP=Difference in GDP growth rates;
 
 IGR=Difference in income growth rates
+
+Reference: Gianni Amisano and John Geweke. Prediction using several macroeconomic models. Working Paper Series 1537,
+European Central Bank, April 2013.
