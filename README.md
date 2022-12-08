@@ -48,6 +48,8 @@ https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.h
 ## TensorFlow.Keras
 Keras is compact, easy to learn, high-level Python library run on top of TensorFlow framework. It is made with focus of understanding deep learning techniques, such as creating layers for neural networks maintaining the concepts of shapes and mathematical details.
 
+More detailed information can be found on: https://www.tensorflow.org/api_docs/python/tf/keras
+
 ## Purchasing Power Parity (PPP)
 
 The PPP forecasting approach is based on the theoretical law of one price, which states that identical goods in different countries should have identical prices.The PPP approach forecasts that the exchange rate will change to offset price changes due to inflation based on this underlying principle.
