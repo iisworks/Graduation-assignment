@@ -42,6 +42,7 @@ This equation is applied when the original series is not stationary at its level
 
 ![image](https://user-images.githubusercontent.com/112239284/206435068-12cde27a-fc44-4e45-aec6-9c062576ce28.png)
 
+https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html
 
 ## Purchasing Power Parity (PPP)
 
