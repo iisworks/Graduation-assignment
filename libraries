@@ -1,16 +1,21 @@
 ## Loaded libraries
 
-import matplotlib.pylab as plt
-%matplotlib inline
+from matplotlib import pyplot
+import seaborn 
+from datetime import date
+import itertools
 from matplotlib.pylab import rcParams
-rcParams['figure.figsize'] = 15, 6
-import requests, pandas as pd, numpy as np
+import pandas
+import numpy 
 from pandas import DataFrame
 from io import StringIO
 import time, json
-from datetime import date
 import statsmodels
 from statsmodels.tsa.stattools import adfuller, acf, pacf
-from statsmodels.tsa.arima_model import ARIMA
+from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.tsa.seasonal import seasonal_decompose
 from sklearn.metrics import mean_squared_error
+from bokeh.models import ColumnDataSource, HoverTool
+from bokeh.models.annotations import Title
+from bokeh.plotting import figure, show
+from bokeh.palettes import Spectral10
