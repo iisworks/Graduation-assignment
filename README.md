@@ -24,7 +24,7 @@ Part 1: Explanatory Data Analysis (EDA) & Data Visualisation of the raw dataset.
 
 Part 2: Machine Learning: Time Series Forecasting with ARIMA.
 
-Part 3: Machine Learning: Tensorflow.keras.
+Part 3: Machine Learning: Keras of TensorFlow framework
 
 Part 4: Future recomendations: Econometric Models and Purchasing Power Parity (PPP)
 
