@@ -16,7 +16,7 @@ Because of the unpredictability and volatility of currency rates, the exchange r
 
 ## Data Description
 
-Data were collected from an authentic source from the European Central Bank. This information comprises 42 variables. The data have a duration from 4 January 1999 to 29 November 2022. The period is based on daily observations, having two components, one is the dependent variable, and the other one is an independent variable as the exchange rate is part of the economic time series, which is considered as a dependent variable. By contrast, time is said to be an independent variable.
+Data were collected from an authentic source from the European Central Bank (https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html). This information comprises 42 variables. The data have a duration from 4 January 1999 to 29 November 2022. The period is based on daily observations, having two components, one is the dependent variable, and the other one is an independent variable as the exchange rate is part of the economic time series, which is considered as a dependent variable. By contrast, time is said to be an independent variable.
 
 ## Agenda
 
@@ -43,4 +43,6 @@ This equation is applied when the original series is not stationary at its level
 
 ## Purchasing Power Parity (PPP)
 
-The PPP forecasting approach is based on the theoretical law of one price, which states that identical goods in different countries should have identical prices.
+The PPP forecasting approach is based on the theoretical law of one price, which states that identical goods in different countries should have identical prices.The PPP approach forecasts that the exchange rate will change to offset price changes due to inflation based on this underlying principle.
+
+One of the most well-known applications of the PPP method is illustrated by the Big Mac Index, compiled and published by The Economist. This lighthearted index attempts to measure whether a currency is undervalued or overvalued based on the price of Big Macs in various countries. Since Big Macs are nearly universal in all the countries they are sold, a comparison of their prices serves as the basis for the index. (https://www.economist.com/big-mac-index)
