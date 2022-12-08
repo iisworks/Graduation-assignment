@@ -17,3 +17,12 @@ Because of the unpredictability and volatility of currency rates, the exchange r
 ## Data Description
 
 Data were collected from an authentic source from the European Central Bank. This information comprises 42 variables. The data have a duration from 4 January 1999 to 29 November 2022. The period is based on daily observations, having two components, one is the dependent variable, and the other one is an independent variable as the exchange rate is part of the economic time series, which is considered as a dependent variable. By contrast, time is said to be an independent variable.
+
+## Agenda
+
+Part 1: Explanatory Data Analysis (EDA) & Data Visualisation of the raw dataset.
+
+Part 2: Machine Learning: Time Series Forecasting with ARIMA.
+
+Part 3: Machine Learning: Tensorflow.keras.
+
